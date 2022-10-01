@@ -471,12 +471,12 @@ input {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.white:hover{
+.white:hover {
   color: var(--accent-color);
 }
 
 .accent:hover + .white,
-.logo:focus .white{
+.logo:focus .white {
   color: var(--accent-color);
 }
 
@@ -490,11 +490,11 @@ input {
 }
 
 .address-list a:hover,
-.address-list a:focus{
+.address-list a:focus {
   color: var(--accent-color);
 }
 
-.address-list a:focus .white{
+.address-list a:focus .white {
   color: var(--accent-color);
 }
 
@@ -771,7 +771,7 @@ input {
 }
 
 .close-button:hover,
-.close-button:focus{
+.close-button:focus {
   fill: var(--accent-color);
 }
 
@@ -832,13 +832,13 @@ input {
 }
 
 .modal-imput:hover,
-.modal-imput:focus{
+.modal-imput:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
 
 .modal-label:hover,
-.modal-imput:focus + .icon-modal{
+.modal-imput:focus + .icon-modal {
   fill: var(--accent-color);
 }
 
@@ -861,7 +861,7 @@ input {
   border-radius: 4px;
 }
 
-.accept{
+.accept {
   display: flex;
   align-items: center;
   margin-top: 10px;
@@ -872,7 +872,7 @@ input {
   line-height: 1.71;
 }
 
-.checkbox{
+.checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -883,26 +883,18 @@ input {
   margin-right: 5px;
 }
 
-.accept input:checked + .checkbox{
+.accept input:checked + .checkbox {
   background-color: #2196f3;
   border: 2px solid var(--accent-color);
   border-radius: 2px;
 }
 
-.checkbox svg{
-  display: none;
-}
-
-.accept input:checked + .checkbox svg{
- display: block;
-}
-
-.accept-icon{
+.accept-icon {
   height: 8px;
   width: 11px;
 }
 
-.terms a{
+.terms a {
   color: var(--accent-color);
   text-decoration: underline;
 }
