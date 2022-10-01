@@ -566,6 +566,9 @@ input {
 }
 
 .sign-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   margin-left: 12px;
   width: 200px;
@@ -579,12 +582,6 @@ input {
   color: var(--primary-white-color);
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.signup-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .icon-send {
