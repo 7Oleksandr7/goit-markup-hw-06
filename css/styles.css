@@ -870,6 +870,7 @@ input {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  color: var(--secondary-text-color);
 }
 
 .checkbox {
